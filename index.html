@@ -71,7 +71,7 @@
                         <h1 class="section-hero-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                     </li>
                     <li class="section-hero-list-item">
-                        <button class="button-order button" type="button">Zamów usługe</button>
+                        <button class="button-order button" type="button" data-modal-open>Zamów usługe</button>
                     </li>
                 </ul>            
             </div>
@@ -407,6 +407,16 @@
         </div>
     </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <svg class="close-button" data-modal-close>
+                <use href="images/icons.svg#icon-close"></use>
+            </svg>
+        </div>
+    </div>
+
+    <script src=".js/modal.js"></script>
+    
 </body>
 
 
